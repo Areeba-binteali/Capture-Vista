@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <i id="nav-bar" onclick="navigationmenu()" class="fa-solid fa-bars-staggered"></i>
+                <label class="logo">Capture <span id="for_clr">Vista</span></label><div id="nav_bar" onmousewheel="hide_nav_bar()">
+                <li class="li" id="res-home"><a href="index.html">Home</a></li>
+                <li class="li" id="res-property"><a href="Portfolio.html">Portfolio</a></li>
+                <li class="li" id="res-prop_det"><a href="packages.html">Packages</a></li>
+                <li class="li" id="res-prop_det"><a href="reviews.html">Reviews</a></li>
+                <li class="li" id="res-contact"><a href="contact.html">Contact Us</a></li>
+                <li class="li" id="res-btn"><a href="login.html"><button id="btn-login"><i id="login" class="fa-solid fa-arrow-right-to-bracket"></i>Login/ Sign Up</button></a></li>
+            </div>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <h1 class="FONT" id="H1">portfolio</h1>
+    </div>
+    <div id="sub_2">
+        <div id="events">
+            <h2 id="event_hd">Events</h2>
+            <div class="forflex">
+                <div class="portfolio"><a class="port" href="wedd.html"><img class="portfolio_img" src="wedding.jpg" alt="wedding"><h2 class="portfolio_head">Wedding Photography</h2></div>
+                <div class="portfolio"><a class="port" href="birth.html"><img class="portfolio_img" src="birthday.jpg" alt="birthday"><h2 class="portfolio_head">Birthday Photography</h2></a></div>
+                <div class="portfolio"><a class="port" href="family.html"><img class="portfolio_img" src="family.jpg" alt="family"><h2 class="portfolio_head">Family Portrait Photography</h2></a></div> 
+            </div>
+            <div class="forflex" id="for_margin">
+                <div class="portfolio"><a class="port" href="graduate.html"><img class="portfolio_img" src="graduation.jpg" alt="gradute"><h2 class="portfolio_head">Gradutes Celebration Photography</h2></a></div>
+                <div class="portfolio"><a class="port" href="hday.html"><img class="portfolio_img" src="holiday.jpg" alt="holiday"><h2 class="portfolio_head">Holiday Celebrations Photography</h2></div>
+                <div class="portfolio"><a class="port" href="sport.html"><img class="portfolio_img" src="Sports.png" alt="Sports"><h2 class="portfolio_head">Sports Photography</h2></a></div>
+            </div>
+        </div>
+        <div id="events">
+            <h2 id="event_hd">Nature</h2>
+            <div class="forflex" id="for_margin">
+                <div class="portfolio"><a class="port" href="animal.html"><img class="portfolio_img" src="animal.png" alt="wedding"><h2 class="portfolio_head">Animals Photography</h2></a></div>
+                <div class="portfolio"><a class="port" href="plant.html"><img class="portfolio_img" src="plants.jpg" alt="birthday"><h2 class="portfolio_head">Palnts Photography</h2></a></div>
+                <div class="portfolio"><a class="port" href="insect.html"><img class="portfolio_img" src="insects.jpg" alt="family"><h2 class="portfolio_head">Insects Photography</h2></a></div> 
+            </div>
+            <h2 id="event_hd">Places</h2>
+            <div class="forflex" id="for_margin">
+                <div class="portfolio"><a class="port" href="mountain.html"><img class="portfolio_img" src="mountains.jpg" alt="gradute"><h2 class="portfolio_head">Mountains Photography</h2></a></div>
+                <div class="portfolio"><a class="port" href="occeans.html"><img class="portfolio_img" src="occeans.jpg" alt="holiday"><h2 class="portfolio_head">Occeans Photography</h2></a></div>
+                <div class="portfolio"><a class="port" href="forest.html"><img class="portfolio_img" src="forests.jpg" alt="Sports"><h2 class="portfolio_head">Forests Photography</h2></a></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h1 id="foot">Copyright © 2048 Capture Vista Co., Ltd. All rights reserved.</h1>
+     </footer>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1eda;
+}
+#main-div{
+    margin-top: 7%;
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 5% 2%;
+    width: 40%;
+    text-align: center;
+    background-color: white;
+}
+img{
+    width: 40%;
+    height: 70%;
+}
+h1{
+    color: #f35525;
+    margin: 5%;
+}
+h4{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+a{
+    color: #f35525;
+    margin-top: 20px;
+}

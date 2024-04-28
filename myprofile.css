@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#all_main{
+    display: flex;
+}
+#sub_1{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    line-height: 80px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+.logo{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-family: "Dancing Script";
+}
+#vista{
+    color: #f35525;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-family: "Dancing Script";
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #f35525;
+}
+a:active{
+    color: #f35525;
+}
+li{
+    border-bottom: 2px solid #3c3c3c;
+}
+#sub_2{
+    width: 80%;
+    margin-bottom: 5%;
+}
+#sub_2{
+    margin-left: 20%;
+    width: 100%;
+    padding: 3%;
+}
+#profile_pic{
+    font-weight: 500;
+    display: inline;
+}
+#edit{
+    color: #838383;
+    margin-left: 2%;
+}
+#for_img{
+    width: 30%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+#form_info{
+    height: fit-content;
+    margin: 5%;
+}
+.info{
+    margin-right: 80%;
+}
+.info_details{
+    margin: 3% 0%;
+    padding: 3% 2%;
+    font-size: 18px;
+    color: #838383;
+    background-color: #bbbaba32;
+    border: 2px solid #838383;
+    border-radius: 5px;
+}
+#edit_eye{
+    color: #838383;
+    margin-left: 2%;
+}
+#edit-eye{
+    display: none;
+    color: #838383;
+    margin-left: 2%
+}
+#for_link{
+    display: flex;
+    justify-content: space-between;
+}
+#for_clr{
+    color: #f35525;
+    text-decoration: underline;
+}

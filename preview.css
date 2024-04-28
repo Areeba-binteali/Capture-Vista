@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#all_main{
+    display: flex;
+}
+#sub_1{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    line-height: 80px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+.logo{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-family: "Dancing Script";
+}
+#vista{
+    color: #f35525;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-family: "Dancing Script";
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #f35525;
+}
+a:active{
+    color: #f35525;
+}
+li{
+    border-bottom: 2px solid #3c3c3c;
+}
+#sub_2{
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+}
+#for_clr{
+    color: #f35525;
+    font-family: "Dancing Script";
+}
+#main_head{
+    font-family: "Dancing Script";
+}
+.for_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.images_wedd{
+    width: 30%;
+    margin: 2%;
+}
+#link_work{
+    color: #f35525;
+    text-decoration: underline;
+}
+#for_mar_btm{
+    margin-bottom: 10%;
+}
