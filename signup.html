@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Account Signup</title>
+</head>
+<body>
+    <div id="main-div">
+        <h1 id="main-heading">Create</h1>
+        <h2>Your New Account</h2>
+        <label for="first">Full Name</label>
+        <input class="input" type="text" id="first" placeholder=" Enter your Full Name here">
+        <label for="username">Select a Username</label>
+        <input class="input" type="text" placeholder=" Select your Username or E-mail Id">
+        <label for="second">Password</label>
+        <input class="input" type="password" id="second" placeholder="Enter your Password here">
+        <label for="pass">Confirm Password</label>
+        <input class="input" type="password" id="pass" placeholder="Confirm your Password">
+        <p id="demo"></p>
+        <div id="for_check">
+        <input class="input" type="checkbox" id="check_btn">
+        <label for="check_btn" id="check_box">I accept the <a href="https://policies.google.com/terms?hl=en-US">Terms of Use</a> and <a href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a></label></div>
+        <button id="btn-login" onclick="pass_match()">Sign Up</button>
+            <a href="login.html">Already have an account? Login Here</a>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

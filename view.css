@@ -1,0 +1,33 @@
+#sub_2{
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+}
+#for_clr{
+    color: #f35525;
+    font-family: "Dancing Script";
+}
+#main_head{
+    font-family: "Dancing Script";
+}
+.for_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.images_wedd{
+    width: 30%;
+    margin: 2%;
+}
+#link_work{
+    color: #f35525;
+    text-decoration: underline;
+}
+footer{
+    background-color: #1e1e1e;
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+#foot{
+    font-size: 20px;
+}
