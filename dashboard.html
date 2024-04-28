@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <div id="all_main">
+        <div id="sub_1">
+            <nav>
+                <ul>
+                    <label class="logo">Capture <span id="vista">Vista</span></label>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="myprofile.html">My Profile</a></li>
+                    <li><a href="mywork.html">My Work</a></li>
+                    <li><a href="myorders.html">My Orders</a></li>
+                    <li><a href="client'sfeedbacks.html">Client's Feedback</a></li>
+                    <li><a href="login.html">Log out</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="sub_2">
+            <div id="for_clr">
+                <h1 id="welcome">Welcome <span id="areeba">Areeba</span>,</h1>
+                <h2 id="wlcm_head">Here are some neccesary updates for today</h2>
+            </div>
+            <div id="for_four">
+                <div class="four_btns">
+                    <div class="sub_four_btns">
+                        <i id="for_btn_clr" class="fa-regular fa-circle-check"></i>
+                        <h6 class="four_btn_head_main">Completed</h6>
+                    </div>
+                    <h2 class="four_btn_sub">56</h2>
+                </div>
+                <div class="four_btns">
+                    <div class="sub_four_btns">
+                        <i id="for_btn_clr" class="fa-solid fa-hourglass-half"></i>
+                        <h6 class="four_btn_head_main">In Progress</h6>
+                    </div>
+                    <h2 class="four_btn_sub">1</h2>
+                </div>
+                <div class="four_btns">
+                    <div class="sub_four_btns">
+                        <i id="for_btn_clr" class="fa-solid fa-circle-half-stroke"></i>
+                        <h6 class="four_btn_head_main">Pending</h6>
+                    </div>
+                    <h2 class="four_btn_sub">2</h2>
+                </div>
+                <div class="four_btns">
+                    <div class="sub_four_btns">
+                        <i id="for_btn_clr" class="fa-solid fa-user-plus"></i>
+                        <h6 class="four_btn_head_main">Orders</h6>
+                    </div>
+                    <h2 class="four_btn_sub">3</h2>
+                </div>
+            </div>
+            <div id="scnd_block">
+                <div class="scnd_block_sub" id="fir_sub">
+                    <h3>Traffic on your Site</h3>
+                    <img id="graph" src="graph.jpg" alt="graph">
+                    <h4 id="traffic">Great! you Site's Traffic is increasing day by day</h4>
+                </div>
+                <div class="scnd_block_sub" id="scnd_sub">
+                    <img id="radial" src="radial graph.png" alt="radial graph">
+                </div>
+            </div>
+            <div id="formargin">
+                <div id="idea">
+                    <h2 id="idea-head">Quick Draft</h2>
+                    <label for="title">Title</label>
+                    <input type="text" id="title">
+                    <label for="content">Content</label>
+                    <textarea id="content" cols="30" rows="10">What's on your mind?</textarea>
+                    <button id="idea_btn">Save Draft</button>
+                </div>
+            </div>   
+            <div id="overview_margin">
+                <div id="overview">
+                    <h2 id="overview_head">At a Glance</h2>
+                    <div id="flex_display">
+                        <div class="for_icons">
+                            <div class="four_btns">
+                                <div class="sub_four_btns">
+                                    <i id="for_btn_clr" class="fa-regular fa-circle-check"></i>
+                                    <h6 class="four_btn_head_main">56 Completed</h6>
+                                </div>
+                            </div>
+                            <div class="four_btns">
+                                <div class="sub_four_btns">
+                                    <i id="for_btn_clr" class="fa-solid fa-hourglass-half"></i>
+                                    <h6 class="four_btn_head_main">1 In Progress</h6>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="for_icons">   
+                            <div class="four_btns">
+                                <div class="sub_four_btns">
+                                    <i id="for_btn_clr" class="fa-solid fa-circle-half-stroke"></i>
+                                    <h6 class="four_btn_head_main">2 Pending</h6>
+                                </div>
+                            </div>
+                            <div class="four_btns">
+                                <div class="sub_four_btns">
+                                    <i id="for_btn_clr" class="fa-solid fa-user-plus"></i>
+                                    <h6 class="four_btn_head_main">3 Orders</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="mywork.html" id="for_overview">See Details about Your Work</a>
+                </div>
+            </div> 
+
+        </div>
+    </div>
+</body>
+</html>

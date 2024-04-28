@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#all_main{
+    display: flex;
+}
+#sub_1{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    line-height: 80px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+.logo{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-family: "Dancing Script";
+}
+#vista{
+    color: #f35525;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-family: "Dancing Script";
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #f35525;
+}
+a:active{
+    color: #f35525;
+}
+li{
+    border-bottom: 2px solid #3c3c3c;
+}
+#sub_2{
+    width: 80%;
+    margin-bottom: 10%;
+}
+#for_clr{
+    box-shadow: inset 0px 0px 10px gray;
+    width: 100%;
+    margin-left: 25%;
+    padding-left: 3%;
+}
+#welcome{
+    padding-top: 4%;
+    margin-bottom: 2%;
+}
+#areeba{
+    color: #f35525;
+    font-family: "Dancing Script";
+}
+#wlcm_head{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+#for_four{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 25%;
+    padding-left: 3%;
+}
+.four_btns{
+    box-shadow: 0px 0px 5px gray;
+    border-top: 5px solid #f35525;
+    border-radius: 5px;
+    width: 25%;
+    margin: 3% 3% 3% 0%;
+}
+.sub_four_btns{
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    border-bottom: 2px solid #3c3c3c09;
+}
+#for_btn_clr{
+    color: #f35525;
+    font-size: 20px;
+    width: 30%;
+}
+.four_btn_head_main{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 1%;
+}
+.four_btn_sub{
+    padding: 5%;
+    padding-left: 10%;
+}
+#scnd_block{
+    display: flex;
+    margin-left: 25%;
+    width: 100%;
+}
+#fir_sub{
+    width: 70%;
+    padding: 2.5%;
+    margin: 2.5%;
+    border: 1px solid #1e1e1e1e;
+}
+#graph{
+    width: 100%;
+}
+#scnd_sub{
+    width: 30%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+}
+#traffic{
+    font-weight: 500;
+    border-top: 1px solid #1e1e1e1e;
+    padding-top: 2%;
+}
+#radial{
+    width: 100%;
+    margin-top: 2%;
+}
+#formargin{
+    margin-left: 25%;
+    width: 100%;
+}
+#idea{
+    margin: 2.5%;
+    padding: 2.5%;
+    width: 95%;
+    border: 1px solid #1e1e1e1e;
+}
+label{
+    display: block;
+    margin: 2% 0%;
+}
+#idea-head{
+    border-bottom: 1px solid #1e1e1e1e;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+#title{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #1e1e1e63;
+}
+#content{
+    width: 100%;
+    padding: 1%;
+    color: #575757;
+    border: 1px solid #1e1e1e63;
+}
+#idea_btn{
+    padding: 1.5% 3%;
+    margin-top: 2%;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #f35525;
+    border: none;
+    border-radius: 5px;
+}
+#overview_margin{
+    margin-left: 25%;
+    width: 100%;
+}
+#overview{
+    margin: 2.5%;
+    padding: 2.5%;
+    width: 95%;
+    border: 1px solid #1e1e1e1e;
+}
+#overview_head{
+    border-bottom: 1px solid #1e1e1e1e;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+#flex_display{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0% 0% 3% 4%;
+}
+.for_icons{
+    width: 100%;
+}
+.four_btns{
+    width: 90%;
+    margin-top: 8%;
+}
+#for_overview{
+    color: #f35525;
+    border-top: 1px solid #1e1e1e1e;
+    display: block;
+    padding-top: 3%;
+    text-decoration: underline
+}
