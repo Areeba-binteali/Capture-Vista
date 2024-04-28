@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home - Capture Vista</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <i id="nav-bar" onclick="navigationmenu()" class="fa-solid fa-bars-staggered"></i>
+                <label class="logo">Capture <span id="for_clr">Vista</span></label><div id="nav_bar" onmousewheel="hide_nav_bar()">
+                <li class="li" id="res-home"><a href="index.html">Home</a></li>
+                <li class="li" id="res-property"><a href="Portfolio.html">Portfolio</a></li>
+                <li class="li" id="res-prop_det"><a href="packages.html">Packages</a></li>
+                <li class="li" id="res-prop_det"><a href="reviews.html">Reviews</a></li>
+                <li class="li" id="res-contact"><a href="contact.html">Contact Us</a></li>
+                <li class="li" id="res-btn"><a href="login.html"><button id="btn-login"><i id="login" class="fa-solid fa-arrow-right-to-bracket"></i>Login/ Sign Up</button></a></li>
+            </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url(try11.jpg);">
+        <h1 id="carousel_head">Capturing Moments, Creating Memories.</h1>
+    </div>
+    <div class="carousel-item" style="background-image: url(try2.jpg);">
+        <h1 id="carousel_head">Frame Your World with Our Lens.</h1>
+    </div>
+    <div class="carousel-item" style="background-image: url(try3.jpg);">
+        <h1 id="carousel_head">Where Every Click Tells a Story.</h1>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+        </div>
+        <div id="home_second">
+            <div class="home_scnd_sub" id="sub_one">
+                <img id="scnd_img" src="scnd.webp" alt="img">
+            </div>
+            <div class="home_scnd_sub" id="sub_two">
+                <h2 id="scnd_head"><span id="for_clr">Unveiling</span> Life's Essence,<span id="for_clr"> One Click</span> at a Time.</h2>
+                <p id="scnd_para">Welcome to our photography sanctuary, where moments are immortalized through lens and light. Explore our gallery of captivating images and let our vision paint your world with vivid storytelling.</p>
+                <div class="inner-sub">
+                    <div id="faq-div">
+                        <div id="faq-divs">
+                            <h2 id="ques-1" class="faq-ques" onclick="faqfir() , faqcolorfir()">How can I book a photography session with your <br>team?<h2>
+                            <div class="faq-p" id="faq-1">Booking a session is easy! Simply visit our website and fill out the contact form. We'll get back to you promptly to discuss your requirements and schedule.</div>
+                        </div>
+                        <div id="faq-divs">
+                            <h2 id="ques-2" class="faq-ques" onclick="faqsec() , faqcolorsec()">Can I order prints of the photos on your website?</h2>
+                            <div class="faq-p" id="faq-2">Yes, you can! We offer a range of print options for purchase directly through our website. Just browse our gallery, select your favorite images, and follow the simple ordering process.</div>
+                        </div>
+                        <div id="faq-divs">
+                            <h2 id="ques-3" class="faq-ques" id="faq-last" onclick="faqthi() , faqcolorthi()">Do you offer photography workshops or tutorials?<h2>
+                            <div class="faq-p" id="faq-3">Yes, we do! Keep an eye on our website and social media channels for announcements about upcoming workshops and tutorials. Whether you're a beginner or an experienced photographer, there's something for everyone to learn and enjoy.</div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div id="home_third">
+            <h2 id="video_head">Get the closer view about our work!</h2>
+            <a href="https://www.youtube.com/">
+            <img id="img_third" src="test2.jpg" alt="video"></a>
+        </div>
+        <div id="last-portion">
+            <div id="second-last-part">
+                <div class="second-last">
+                    <h1 id="contact_head_main">Our Packages</h1>
+                </div>
+                <div class="second-last" id="for-align">
+                    <button onclick="showfir() , colorfir()" id="act-1" class="action-btn">Wedding Event</button>
+                    <button onclick="showsec() , colorsec()" id="act-2" class="action-btn">Birthday Event</button>
+                </div>
+            </div>    
+            <section class="sections" id="section1">
+                <div class="section-div">    
+                    <div id="inner-main-2">
+                    <div class="infoslider">
+                        <p class="info-para">Number of Photographers</p>
+                        <h4 class="info-heading-last">Our Team</h4>
+                    </div>
+                    <div class="infoslider">
+                        <p class="info-para">Payment Process</p>
+                        <h4 class="info-heading-last"> Bank</h4>
+                    </div>
+                    <div class="infoslider">
+                        <p class="info-para">Contract </p>
+                        <h4 class="info-heading-last">15 days before</h4>
+                    </div>
+                    <div class="infoslider" id="last-info">
+                        <p class="info-para">Prints and Albums</p>
+                        <h4 class="info-heading-last">2</h4>
+                    </div>
+                    </div>
+                    <div class="sec-img">
+                        <img src="wedding.jpg" alt="Appartment" id="img-section">
+                    </div>
+                    <div class="section-info">
+                        <h6 class="sec-heading">All Info About Wedding Shoot</h6>
+                        <p class="section-para">Capture the magic of your special day with our all-inclusive wedding photography package. From intimate moments to grand celebrations, our experienced team ensures every detail is preserved with artistry and elegance. </p><br>
+                        <p class="section-para">With full-day coverage, multiple photographers, and high-resolution edited images delivered in a beautifully curated online gallery, relive the joy and emotion for years to come.</p>
+                        <button class="section-button"><i class="fa-solid fa-calendar" id="calendar"></i>Schedule a shoot</button>
+                    </div>
+                </div>
+            </section>
+            <section class="sections" id="section2">
+                <div class="section-div">    
+                    <div id="inner-main-2">
+                        <div class="infoslider">
+                            <p class="info-para">Number of Photographers</p>
+                            <h4 class="info-heading-last">2 </h4>
+                        </div>
+                        <div class="infoslider">
+                            <p class="info-para">Payment Process</p>
+                            <h4 class="info-heading-last"> Bank</h4>
+                        </div>
+                        <div class="infoslider">
+                            <p class="info-para">Contract </p>
+                            <h4 class="info-heading-last">10 days before</h4>
+                        </div>
+                        <div class="infoslider" id="last-info">
+                            <p class="info-para">Prints and Albums</p>
+                            <h4 class="info-heading-last">1</h4>
+                        </div>
+                        </div>
+                    <div class="sec-img">
+                        <img src="birthday.jpg" alt="Villa House" id="img-section">
+                    </div>
+                    <div class="section-info">
+                        <h6 class="sec-heading">Detail Info About Birthday Shoot</h6>
+                        <p class="section-para">Celebrate life's milestones with our tailored birthday photography package, designed to capture the joy and essence of your special day.</p><br>
+                        <p class="section-para">Our package includes high-resolution edited images delivered in a convenient online gallery for easy sharing and downloading. Relive the magic for years to come with optional prints, albums, and personalized keepsakes. Let us turn your birthday into a timeless masterpiece of cherished memories.</p>
+                        <button class="section-button"><i class="fa-solid fa-calendar" id="calendar"></i>Schedule a shoot</button>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <div id="for_portfolio">
+            <h1 id="portfolio_head_main">Our Portfolio</h1>
+            <div id="events">
+                <div class="forflex">
+                    <div class="portfolio"><a class="port" href="wedd.html"><img class="portfolio_img" src="wedding.jpg" alt="wedding"><h2 class="portfolio_head">Wedding Photography</h2></div>
+                    <div class="portfolio"><a class="port" href="birth.html"><img class="portfolio_img" src="birthday.jpg" alt="birthday"><h2 class="portfolio_head">Birthday Photography</h2></a></div>
+                    <div class="portfolio"><a class="port" href="family.html"><img class="portfolio_img" src="family.jpg" alt="family"><h2 class="portfolio_head">Family Portrait Photography</h2></a></div> 
+                </div>
+                <div class="forflex" id="for_margin">
+                    <div class="portfolio"><a class="port" href="graduate.html"><img class="portfolio_img" src="graduation.jpg" alt="gradute"><h2 class="portfolio_head">Gradutes Celebration Photography</h2></a></div>
+                    <div class="portfolio"><a class="port" href="hday.html"><img class="portfolio_img" src="holiday.jpg" alt="holiday"><h2 class="portfolio_head">Holiday Celebrations Photography</h2></div>
+                    <div class="portfolio"><a class="port" href="sport.html"><img class="portfolio_img" src="Sports.png" alt="Sports"><h2 class="portfolio_head">Sports Photography</h2></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="contact_form_side">
+            <h1 id="contact_head_main">Contact Us</h1>
+            <div id="main_sec" style="padding-left: 0px;">
+                <div class="sub" style="width: 60%; margin-left: 0px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28703.044484475075!2d-80.14561682755075!3d25.93914628597556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9acfee073549d%3A0xf4e74db7a5da487a!2sSunny%20Isles%20Beach%2C%20FL%2033160%2C%20USA!5e0!3m2!1sen!2s!4v1710306603611!5m2!1sen!2s" width="90%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="sub" id="sub_2" style="width: 40%; margin: 0px;">
+                    <label for="full_name">Full Name</label>
+                    <input class="inputs" type="text" id="full_name" placeholder="Enter your Name...">
+                    <label for="email">Email address</label>
+                    <input class="inputs" type="text" id="email" placeholder="Enter your Email...">
+                    <label for="subject">Subject</label>
+                    <input class="inputs" type="text" id="subject" placeholder="Enter your Subject...">
+                    <label for="message">Message</label>
+                    <textarea class="inputs" id="message" cols="30" rows="10">Your Message...</textarea>
+                    <button id="send">Send Message</button>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <h1 id="foot">Copyright © 2048 Capture Vista Co., Ltd. All rights reserved.</h1>
+     </footer>
+        <script src="app.js"></script>
+</body>
+</html>
